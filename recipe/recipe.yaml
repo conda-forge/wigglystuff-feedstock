@@ -24,6 +24,8 @@ requirements:
   run:
     - python >=${{ python_min }}
     - anywidget >=0.9.2, <1.0
+    - mohtml >=0.1.11
+    - numpy >=2.2.6
 
 tests:
   - python:
