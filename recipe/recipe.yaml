@@ -1,6 +1,6 @@
 context:
   name: wigglystuff
-  version: "0.2.7"
+  version: "0.2.8"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: 7f662eceae08741d6c2ada1dd288b1fb248a544b0da2f8533ce846f1c796d72b
+  sha256: 891ca91be181a4471fae7bf0ef9706e8ebed0c296c548f9d57e79da9a7b4ba3f
 
 build:
   noarch: python
@@ -22,9 +22,7 @@ requirements:
     - hatchling
   run:
     - python >=${{ python_min }}
-    - altair >=6.0.0
     - anywidget >=0.9.2
-    - mohtml >=0.1.11
     - numpy
     - pillow
 
