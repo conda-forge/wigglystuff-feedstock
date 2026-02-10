@@ -25,6 +25,7 @@ requirements:
     - anywidget >=0.9.2
     - numpy
     - pillow
+    - python-dotenv >=1.2.1
 
 tests:
   - python:
