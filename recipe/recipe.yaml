@@ -1,6 +1,6 @@
 context:
   name: wigglystuff
-  version: "0.3.1"
+  version: "0.3.2"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: 410091fe94f7b4ba35acc828cbf7cfe558d8f60d43ad74d7414c17b1580e8a99
+  sha256: e0681ad1023009f047bf6049f1f136b0af1b99ac5b5d62ad894d790d45279f54
 
 build:
   noarch: python
